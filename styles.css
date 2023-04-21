@@ -1,0 +1,67 @@
+:root{
+	--button-size:185px;
+}
+*{
+	margin:0;
+	padding:0;
+	font-family: "Raleway", Sans-serif;
+}
+html{
+	overflow:hidden;
+}
+.section-1{
+text-align:center;
+color:white;
+background-color: #2C8E99;
+transition:0.7s;
+}
+.section-1 p{
+	font-size:80px;
+}
+.btn-strip{
+	margin:auto;
+	width:30%;
+	display:flex;
+	justify-content:space-between;
+}
+#result{
+	opacity:0;
+}
+.btn-strip span{
+	display:flex;
+	justify-content:space-between;
+	width:100px;
+}
+.btn-strip div{
+	cursor:pointer;
+	padding: 10px 5px 10px 5px;
+	color:#2C8E99;
+	transition: 0.5s;
+}
+.btn-strip div:hover{
+color:white;
+background-color:#2C8E99;
+}
+.color-section{
+	background-color:#232323;
+	height:80vh;
+	overflow:hidden;
+}
+.color-btn-div{
+	margin:auto;
+	margin-top:50px;
+	width:600px;
+	height:400px;
+	display:grid;
+	grid-template-columns: var(--button-size) var(--button-size) var(--button-size);
+	justify-content:space-between ;
+	
+}
+.color-btn-div div{
+	transition:0.7s;
+	cursor:pointer;
+	width:var(--button-size);
+	height:185px;
+	border-radius:25%;
+	background-color:blue;
+}
